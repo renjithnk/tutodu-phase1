@@ -81,7 +81,7 @@ public partial class CommonPages_SearchResult : ClsPageEvents, IPageInterFace
             dt2.Columns.Add("Name");
             dt2.Rows.Add("Tuition");
             dt2.Rows.Add("On Demand");
-            dt2.Rows.Add("Private");
+            //dt2.Rows.Add("Private");
             dt2.Rows.Add("Public");
 
             ChkBxCat.DataSource = dt2;
@@ -277,8 +277,8 @@ public partial class CommonPages_SearchResult : ClsPageEvents, IPageInterFace
                 RptrSearchResultsMob.DataSource = _dwList.ToTable();
                 RptrSearchResultsMob.DataBind();
 
-                RptRelatedSrch.DataSource = _dwList.ToTable();
-                RptRelatedSrch.DataBind();
+                //RptRelatedSrch.DataSource = _dwList.ToTable();
+                //RptRelatedSrch.DataBind();
 
                 DivSearchErrMsg.Visible = false;
                 DivSearchErrMsg2.Visible = false;
@@ -309,66 +309,6 @@ public partial class CommonPages_SearchResult : ClsPageEvents, IPageInterFace
     public void ManiPulateDataEvent_Clicked(object sender, EventArgs e)
     {
         throw new NotImplementedException();
-    }
-
-    public void GetCourseFilterResult(string medID, string cat, string durType, string acdLevID, string accid)
-    {
-        try
-        {
-            if (Session["tempsearchkey"] != "AllCourses")
-            {
-                DataSet _dsVal = objGenList.FnGetCourseAdvanceSearchDetails(Session["tempsearchkey"].ToString(), cat, accid, medID, "", "", durType, acdLevID) as DataSet;
-                DataTable dt2 = (_dsVal.Tables[0].DefaultView).ToTable();
-                if (_dsVal.Tables[0].Rows.Count != 0)
-                {
-                    RptrSearchResults.DataSource = dt2;
-                    RptrSearchResults.DataBind();
-
-                    RptrSearchResultsMob.DataSource = dt2;
-                    RptrSearchResultsMob.DataBind();
-                }
-                else
-                {
-                    DivSearchErrMsg.Visible = true;
-                    DivSearchErrMsg2.Visible = true;
-
-                    RptrSearchResults.DataSource = null;
-                    RptrSearchResults.DataBind();
-
-                    RptrSearchResultsMob.DataSource = null;
-                    RptrSearchResultsMob.DataBind();
-                }
-            }
-            else
-            {
-                DataSet _dsVal = objGenList.FnGetCourseAdvanceSearchDetails("", cat, accid, medID, "", "", durType, acdLevID) as DataSet;
-                DataTable dt2 = (_dsVal.Tables[0].DefaultView).ToTable();
-                if (_dsVal.Tables[0].Rows.Count != 0)
-                {
-                    RptrSearchResults.DataSource = dt2;
-                    RptrSearchResults.DataBind();
-
-                    RptrSearchResultsMob.DataSource = dt2;
-                    RptrSearchResultsMob.DataBind();
-                }
-                else
-                {
-                    DivSearchErrMsg.Visible = true;
-                    DivSearchErrMsg2.Visible = true;
-
-                    RptrSearchResults.DataSource = null;
-                    RptrSearchResults.DataBind();
-
-                    RptrSearchResultsMob.DataSource = null;
-                    RptrSearchResultsMob.DataBind();
-                }
-            }
-        }
-        catch (Exception ex)
-        {
-            FnPopUpAlert(ex.Message);
-        }
-
     }
 
     protected void ChkBxLang_SelectedIndexChanged(object sender, EventArgs e)
