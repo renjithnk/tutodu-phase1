@@ -4313,8 +4313,8 @@ header .row.justify-content-between .col-md-4 .header-button {
 
 @media only screen and (min-width:1200px) {
     #news-updates .row .col-10:nth-child(4) .news-card {
-        display: flex;
-        flex-direction: column-reverse;
+       /*display: flex;
+        flex-direction: column-reverse;*/ 
     }
 
     #news-updates .news-card .news-media {
