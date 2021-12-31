@@ -1,4 +1,4 @@
-﻿<%@ page title="" language="C#" masterpagefile="~/MasterPages/OrgMaster.master" autoeventwireup="true" inherits="CommonPages_OrgHome, App_Web_wy5ggddp" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/OrgMaster.master" AutoEventWireup="true" CodeFile="OrgHome.aspx.cs" Inherits="CommonPages_OrgHome" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
@@ -70,7 +70,7 @@
                             <div class="col-10 offset-1 offset-sm-0 col-lg-3 col-sm-6 mb-5 px-md-4">
                             <div class="popular-course-box" style="height: 325px">
                             <div class="pp-course-img text-center mb-20">
-                            <img class="image-placeholder" width="300px" height="150px" src='<%# FnGetCourseImagePath(Eval("ImageLivePath")) %>' alt="icon">
+                            <img class="image-placeholder" width="300" height="150" src='<%# FnGetCourseImagePath(Eval("ImageLivePath")) %>' alt="icon">
                             </div>
                             <div class="pp-course-title text-center mb-35 px-2">
                             <h6 style="margin-top: 10px;"><asp:Label ID="LblName" runat="server" ></asp:Label></h6>
@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="org-header d-flex align-items-center justify-content-center">
+                   <!-- <div class="org-header d-flex align-items-center justify-content-center">
                         <div class="tut-logo">
                             <img src="../Assets/img/logo.png">
                         </div>
@@ -161,7 +161,7 @@
                         <div class="org-register">
                             <a href="">Register</a>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="row">
                         <div class="col"></div>
                         <div class="col-md-10">
@@ -195,10 +195,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="org-contact-btns">
+                            <!--<div class="org-contact-btns">
                                 <a href="">Join Organization</a>
                                 <a href="">View Resources</a>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="col"></div>
                     </div>

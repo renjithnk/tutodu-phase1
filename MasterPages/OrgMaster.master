@@ -1,4 +1,4 @@
-﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPages_OrgMaster, App_Web_g1sjptrh" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="OrgMaster.master.cs" Inherits="MasterPages_OrgMaster" %>
 
 <!DOCTYPE html>
 
@@ -47,8 +47,9 @@
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-md-4 text-center">
+                        <div class="organization logo">
                          <asp:ImageButton ID="ImgOrgLogo" runat="server" class="navbar-brand" ImageUrl="~/UploadedFiles/Images/image-placeholder.jpg" Width="50px" > </asp:ImageButton>
-                        <h6><asp:Label ID="LblOrgName" runat="server">Organization Name</asp:Label> </h6>
+                        <h6><asp:Label ID="LblOrgName" runat="server">Organization Name</asp:Label> </h6></div>
                     </div>
                     <div class="col-md-3 d-flex align-items-center justify-content-center mb-md-0 mb-3">
                          <a href="#" id="AnchrBtnLogin" runat="server" class="join-btn" data-toggle="modal" data-target="#login-modal"><i class="fa fa-plus"></i>Join this Organization</a>

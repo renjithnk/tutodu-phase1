@@ -505,6 +505,8 @@ footer .container .row .col-md-4 .social-media {
     border-top-left-radius: 15px;
     object-fit: cover;
     /* height: 110px; */
+    width: 100% !important;
+    max-width: 100% !important;
 }
 
 .pp-course-link {
@@ -1122,7 +1124,7 @@ a.view-new-btn {
     background: #fff;
     border: 1px solid #dedede;
     border-radius: 15px;
-    flex-direction: column;
+    /* flex-direction: column; */
     box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
     min-height: 280px;
 }
@@ -4682,6 +4684,12 @@ header .row.justify-content-between .col-md-4 .header-button {
 /* Search Filter Page: End */
 
 /* Organization Page: Start */
+
+.organization-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
 #organization-img {margin-bottom: 20px;}
 .org-theme .org-tab {margin-top:30px ;}
 @media only screen and (min-width:1200px) {
