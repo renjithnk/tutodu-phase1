@@ -957,7 +957,9 @@ footer p {
     }
 
     .academy-searchform .form-group .form-control {
-        height: 40px !important;
+        height: 45px !important;
+        display: flex;
+        align-items: center;
     }
 
 .acourse-tab-nav .section-heading {
@@ -2800,7 +2802,8 @@ a.view-new-btn {
 .org-intro h4 {
     font-family: 'Muli Regular';
     text-align: center;
-    color: #9a0101;
+    color: #f8551b;
+    margin-bottom: 25px;
 }
 
 .org-img {
@@ -2808,13 +2811,16 @@ a.view-new-btn {
 }
 
 #orgtabcontent {
-    background: #efeeed;
+    background: #f1f1f1;
     border-bottom: 3px solid #002147;
+    border: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
     #orgtabcontent .row:after {
         content: '';
-        width: 90%;
+        /* width: 90%; */
         height: 10px;
         background: #cccccc;
         border-radius: 10px;
@@ -2826,11 +2832,15 @@ a.view-new-btn {
 }
 
     #orgtab li a.active {
-        background: #efeeed;
-        border-top: 2px solid #002147;
-        border-left: 5px solid #f05a18;
-        border-right: 5px solid #f05a18;
+        background: #f1f1f1;
+        /* border-top: 2px solid #002147; */
+        /* border-left: 5px solid #f05a18; */
+        /* border-right: 5px solid #f05a18; */
         color: #001328;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom: none;
+        border: none !important;
     }
 
     #orgtab li a {
@@ -2841,6 +2851,7 @@ a.view-new-btn {
         font-family: 'Muli Bold';
         font-size: 20px;
         padding: 20px;
+        border: none;
     }
 
 .org-info {
@@ -3010,8 +3021,8 @@ a.view-new-btn {
 
 #org-search .form-group {
     border: none;
-    border-bottom: 1px solid #0072bc;
-    border-radius: 0;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
 }
 
 #org-search input {
@@ -4669,3 +4680,11 @@ header .row.justify-content-between .col-md-4 .header-button {
     }
 
 /* Search Filter Page: End */
+
+/* Organization Page: Start */
+#organization-img {margin-bottom: 20px;}
+.org-theme .org-tab {margin-top:30px ;}
+@media only screen and (min-width:1200px) {
+    #organization-img {margin-bottom: 30px;}    
+}
+/* Organization Page: End */
