@@ -286,6 +286,7 @@ footer .container .row .col-md-4 .social-media {
     color: rgba(0, 0, 0, 0.7) !important;
     font-size: 16px;
     border: none !important;
+    background-color: transparent !important;
 }
 
     .searchform .form-control::-webkit-input-placeholder {
@@ -307,6 +308,7 @@ footer .container .row .col-md-4 .social-media {
 .searchform .search {
     width: 50px;
     height: 50px;
+    background: transparent;
 }
 
     .searchform .search span {
