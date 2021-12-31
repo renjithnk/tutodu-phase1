@@ -1,0 +1,360 @@
+﻿<asp:DropDownList runat="server" CssClass="form-control" Width="75px" SkinID="DdlTimeZoneList">
+<asp:ListItem Value="0">---Choose---</asp:ListItem>
+<asp:ListItem Value="US">US</asp:ListItem>
+<asp:ListItem Value="INDIA">INDIA</asp:ListItem>
+<asp:ListItem Value="UK">UK</asp:ListItem>
+<asp:ListItem Value="UAE">UAE</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="75px" SkinID="DdlCourseStatus">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="Up Coming">Up Coming</asp:ListItem>
+<asp:ListItem Value="Active">Active</asp:ListItem>
+<asp:ListItem Value="On Going">On Going</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="150px" SkinID="DdlAttendace">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="Present">Present</asp:ListItem>
+<asp:ListItem Value="Leave">Leave</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="150px" SkinID="DdlAttStatus">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="Present">Present</asp:ListItem>
+<asp:ListItem Value="Absent">Absent</asp:ListItem>
+<asp:ListItem Value="Leave">Leave</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="130px" SkinID="DdlAcceptReject">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="Accept">Accept</asp:ListItem>
+<asp:ListItem Value="Reject">Reject</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="150px" SkinID="DdlAssementStatus">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="Pending">Pending</asp:ListItem>
+<asp:ListItem Value="Completed">Completed</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="150px" SkinID="DdlEventType">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="CLASS SECTION">CLASS SECTION</asp:ListItem>
+<asp:ListItem Value="EXAM">EXAM</asp:ListItem>
+<asp:ListItem Value="QUIZ">QUIZ</asp:ListItem>
+<asp:ListItem Value="ASSIGNMENT">ASSIGNMENT</asp:ListItem>
+<asp:ListItem Value="WEBINAR">WEBINAR</asp:ListItem>
+<asp:ListItem Value="MEETING">MEETING</asp:ListItem>
+<asp:ListItem Value="OFFICE HOUR">OFFICE HOUR</asp:ListItem>
+<asp:ListItem Value="OTHERS">OTHERS</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="150px" SkinID="DdlEventLocation">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="VIRTUAL">VIRTUAL</asp:ListItem>
+<asp:ListItem Value="IN PERSON">IN PERSON</asp:ListItem>
+<asp:ListItem Value="SUBMISSION">SUBMISSION</asp:ListItem>
+<asp:ListItem Value="NO LOCATION">NO LOCATION</asp:ListItem>
+<asp:ListItem Value="WEBINAR">WEBINAR</asp:ListItem>
+<asp:ListItem Value="MEETING">MEETING</asp:ListItem>
+<asp:ListItem Value="OFFICE HOUR">OFFICE HOUR</asp:ListItem>
+<asp:ListItem Value="OTHERS">OTHERS</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="75px" SkinID="DdlCourseType">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="PUBLIC">PUBLIC</asp:ListItem>
+<asp:ListItem Value="PRIVATE">PRIVATE</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="75px" SkinID="DdlTutorCourseType">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="TUITION">TUITION</asp:ListItem>
+<asp:ListItem Value="ON DEMAND">ON DEMAND</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="75px" SkinID="DdlLibraryDocType">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="Project">Project</asp:ListItem>
+<asp:ListItem Value="Thesis">Thesis</asp:ListItem>
+<asp:ListItem Value="Innovation">Innovation</asp:ListItem>
+<asp:ListItem Value="Research Article">Research Article</asp:ListItem>
+<asp:ListItem Value="Publication">Publication</asp:ListItem>
+<asp:ListItem Value="White Paper">White Paper</asp:ListItem>
+<asp:ListItem Value="Test Book">Test Book</asp:ListItem>
+<asp:ListItem Value="Other">Other</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="75px" SkinID="DdlCourseDocType">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="PUBLIC">PUBLIC</asp:ListItem>
+<asp:ListItem Value="PRIVATE">PRIVATE</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="100px" SkinID="DdlFeeModeType">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="Hourly">Hourly</asp:ListItem>
+<asp:ListItem Value="Weekly">Weekly</asp:ListItem>
+<asp:ListItem Value="Monthly">Monthly</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="100px" SkinID="DdlTemplateList">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="SAMPLE -1">SAMPLE -1</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" SkinID="DdlDegreeAward">
+<asp:ListItem Value="0" Selected="True">---Choose---</asp:ListItem>
+<asp:ListItem Value="Certificate Course">Certificate Course</asp:ListItem>
+<asp:ListItem Value="Diploma Course">Diploma Course</asp:ListItem>
+<asp:ListItem Value="Degree Course">Degree Course</asp:ListItem>
+<asp:ListItem Value="Post Graduate Course">Post Graduate Course</asp:ListItem>
+<asp:ListItem Value="Pg Diploma Course">Pg Diploma Course</asp:ListItem>
+<asp:ListItem Value="Ug Diploma Course">Ug Diploma Course</asp:ListItem>
+<asp:ListItem Value="Internship Certificate">Internship Certificate</asp:ListItem>
+<asp:ListItem Value="Training Course">Training Course</asp:ListItem>
+<asp:ListItem Value="Participation Certificate">Participation Certificate</asp:ListItem>
+<asp:ListItem Value="Value Added Course">Value Added Course</asp:ListItem>
+<asp:ListItem Value="Vocational Training Course">Vocational Training Course</asp:ListItem>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="300px"  SkinID="DdlList">
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-controlBlue" Width="300px"  SkinID="DdlListRed">
+</asp:DropDownList>
+
+
+<asp:DropDownList runat="server" CssClass="form-control" SkinID="DdlNormal">
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="DdlStyle" Width="200px"  SkinID="DdlCourseSubList">
+<asp:ListItem Text=" More " Value="0"></asp:ListItem>
+<asp:ListItem Text="Course Overview" Value="OVERVIEW"></asp:ListItem>
+<asp:ListItem Text="Instruction Time" Value="INSTRUCTION"></asp:ListItem>
+<asp:ListItem Text="Annoucement" Value="ANNOUCEMENT"></asp:ListItem>
+<asp:ListItem Text="Module's" Value="MODULE"></asp:ListItem>
+<asp:ListItem Text="Assessment" Value="ASSESSMENT"></asp:ListItem>
+<asp:ListItem Text="Notes" Value="NOTES"></asp:ListItem>
+<asp:ListItem Text="Grade Book" Value="GRADE"></asp:ListItem>
+<asp:ListItem Text="Course Forum" Value="FORUM"></asp:ListItem>
+<asp:ListItem Text="Attendance" Value="ATTENDANCE"></asp:ListItem>
+<asp:ListItem Text="Course Calender" Value="CALENDER"></asp:ListItem>
+<asp:ListItem Text="Certificate" Value="CERTIFICATE"></asp:ListItem>
+<asp:ListItem Text="Member List" Value="MEMBERS"></asp:ListItem>
+<asp:ListItem Text="Request List" Value="REQUEST"></asp:ListItem>
+<asp:ListItem Text="Message's" Value="MESSAGE"></asp:ListItem>
+</asp:DropDownList>
+<%--
+<asp:ListItem Text="MEETING ROOM" Value="MEETING"></asp:ListItem>
+<asp:ListItem Text="SUPPORT/HELP" Value="SUPPORT"></asp:ListItem>
+--%>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="200px" SkinID="DdlWeekDay">
+<asp:ListItem Text="--Day--" Value="0" Selected="True" />
+<asp:ListItem Text="Sunday" Value="Sunday" />
+<asp:ListItem Text="Monday" Value="Monday"/>
+<asp:ListItem Text="Tuesday" Value="Tuesday"/>
+<asp:ListItem Text="Wednesday" Value="Wednesday" />
+<asp:ListItem Text="Thursday" Value="Thursday"/>
+<asp:ListItem Text="Friday" Value="Friday"/>
+<asp:ListItem Text="Saturday" Value="Saturday" />
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="70px" SkinID="DdlHour">
+<asp:ListItem Text="00" Value="00" />
+<asp:ListItem Text="01" Value="01"/>
+<asp:ListItem Text="02" Value="02"/>
+<asp:ListItem Text="03" Value="03"/>
+<asp:ListItem Text="04" Value="04"/>
+<asp:ListItem Text="05" Value="05"/>
+<asp:ListItem Text="06" Value="06"/>
+<asp:ListItem Text="07" Value="07"/>
+<asp:ListItem Text="08" Value="08"/>
+<asp:ListItem Text="09" Value="09"/>
+<asp:ListItem Text="10" Value="10"/>
+<asp:ListItem Text="11" Value="11"/>
+<asp:ListItem Text="12" Value="12"/>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="70px" SkinID="DdlMinute">
+<asp:ListItem Text="00" Value="00" />
+<asp:ListItem Text="05" Value="05"/>
+<asp:ListItem Text="10" Value="10"/>
+<asp:ListItem Text="15" Value="15"/>
+<asp:ListItem Text="20" Value="20"/>
+<asp:ListItem Text="25" Value="25"/>
+<asp:ListItem Text="30" Value="30"/>
+<asp:ListItem Text="35" Value="35"/>
+<asp:ListItem Text="40" Value="40"/>
+<asp:ListItem Text="45" Value="45"/>
+<asp:ListItem Text="50" Value="50"/>
+<asp:ListItem Text="55" Value="55"/>
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="80px" SkinID="DdlTimeMode">
+<asp:ListItem Value="Am" Text="Am" />
+<asp:ListItem Value="Pm" Text="Pm" />
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="50px" SkinID="DdlAnswerType">
+<asp:ListItem Text="--Choose--" Value="0" Selected="True" />
+<asp:ListItem Value="SHORT ANSWER" Text="SHORT ANSWER" />
+<asp:ListItem Value="LONG ANSWER" Text="LONG ANSWER" />
+<asp:ListItem Value="MCQ-SINGLE ANSWER" Text="MCQ-SINGLE ANSWER" />
+<asp:ListItem Value="MCQ-MULTI ANSWER" Text="MCQ-MULTI ANSWER" />
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="100px" SkinID="DdlDuration">
+<asp:ListItem Text="----" Value="0" Selected="True" />
+<asp:ListItem Value="Hour" Text="Hour" />
+<asp:ListItem Value="Minute" Text="Minute" />
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="120px" SkinID="DdlDurationType">
+<asp:ListItem Text="--Choose--" Value="0" Selected="True" />
+<asp:ListItem Value="Hour" Text="Hour" />
+<asp:ListItem Value="Days" Text="Days" />
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="50px" SkinID="DdlModultContent">
+<asp:ListItem Text="--Choose--" Value="0" Selected="True" />
+<asp:ListItem Value="TEXT FILE" Text="TEXT FILE" />
+<asp:ListItem Value="VIDEO FILE" Text="VIDEO FILE" />
+<asp:ListItem Value="IMAGE FILE" Text="IMAGE FILE" />
+<asp:ListItem Value="DOC FILE" Text="DOC FILE" />
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" Width="50px" SkinID="DdlAssmentTypeContent">
+<asp:ListItem Text="--Choose--" Value="0" Selected="True" />
+<asp:ListItem Value="Assignment" Text="Assignment" />
+<asp:ListItem Value="Exam" Text="Exam" />
+<asp:ListItem Value="Quiz" Text="Quiz" />
+</asp:DropDownList>
+
+<asp:DropDownList runat="server" CssClass="form-control" SkinID="DdlAttendies">
+<asp:ListItem Value="ALL CLASS" Text="ALL CLASS" Selected="True" />
+<asp:ListItem  Value="INDIVIDUL STUDENT" Text="INDIVIDUL STUDENT" />
+</asp:DropDownList>
+
+<%-- CheckBox Controls --%>
+
+ <asp:CheckBox runat="server" CssClass="form-control checkbox" SkinID="ChkNormal"></asp:CheckBox>
+ <asp:CheckBox runat="server" CssClass="activate-status" SkinID="ChkActive"></asp:CheckBox>
+ <asp:CheckBox runat="server" CssClass="activate-status" SkinID="ChkUserConsent" Text="I have read and agree to Tutodu's Terms & Condotions and Privacy Policy. Make sure the 14 year check and ask for parent email/contact in profile creation"></asp:CheckBox>
+ <asp:CheckBox runat="server" CssClass="activate-status" SkinID="ChkExamConsent" Text="I **** affirm that I have not received any unauthorized help on this exam, and that all work submitted is original and completed by myself."></asp:CheckBox>
+
+<%-- CheckBoxList Controls --%>
+
+ <asp:CheckBoxList runat="server" RepeatDirection="Horizontal" CssClass="form-control checkbox" SkinID="ChkList"></asp:CheckBoxList>
+ <asp:CheckBoxList runat="server" RepeatDirection="Vertical" CssClass="form-controlNew checkbox" SkinID="ChkQstOpt">
+<asp:ListItem Value="OPT1" Text="OPTION -1" />
+<asp:ListItem Value="OPT2" Text="OPTION -2" />
+<asp:ListItem Value="OPT3" Text="OPTION -3" />
+<asp:ListItem Value="OPT4" Text="OPTION -4" />
+<asp:ListItem Value="OPT5" Text="OPTION -5" />
+</asp:CheckBoxList>
+
+<%-- Button Controls --%>
+<asp:Button runat="server"  Height="35px" Width="100px" SkinID="BtnCommandSave" class="btn-save" BorderWidth="0px" BorderColor="Gainsboro"></asp:Button>
+<asp:Button runat="server"  Height="35px" Width="100px" SkinID="BtnCommandClear" class="btn-clear" BorderWidth="0px" BorderColor="Gainsboro"></asp:Button>
+<asp:Button runat="server"  Height="35px" Width="100px" SkinID="BtnCommandDelete" class="btn-delete" BorderWidth="0px" BorderColor="Gainsboro"></asp:Button>
+<asp:Button runat="server"  Height="35px" Width="100px" SkinID="BtnCommandPrint" class="btn-print" BorderWidth="0px" BorderColor="Gainsboro"></asp:Button>
+<asp:Button runat="server"  Height="35px" Width="100px" SkinID="BtnCommandFind" class="btn-find" BorderWidth="0px" BorderColor="Gainsboro"></asp:Button>
+<asp:Button runat="server"  Height="35px" Width="100px" SkinID="BtnCommandFindNew" class="btn-find form-buttons" BorderWidth="0px" BorderColor="Gainsboro"></asp:Button>
+<asp:Button runat="server"  Height="35px" Width="100px" SkinID="BtnCommandEdit" class="btn-Edit " ></asp:Button>
+<asp:Button runat="server"  Height="35px" SkinID="BtnCommandClearNill" class="btn-clear" BorderWidth="0px" BorderColor="Gainsboro"></asp:Button>
+
+<asp:Button runat="server"  Height="25px" SkinID="BtnGrdEdit" class="btn-clear" BorderWidth="0px" BorderColor="Gainsboro"></asp:Button>
+<asp:Button runat="server"  Height="25px" SkinID="BtnGrdEditRed" class="btn-delete" BorderWidth="0px" BorderColor="Gainsboro"></asp:Button>
+<asp:Button runat="server"  Height="25px" SkinID="BtnGrdEditGreen" class="btn-save" BorderWidth="0px" BorderColor="Gainsboro"></asp:Button>
+
+<%-- Text Box Controls summernote --%>
+<asp:TextBox runat="server" CssClass="form-control formtextbox" SkinId="TxtForCtrlSnglNew" style="height: 35px;" ></asp:TextBox>
+<asp:TextBox runat="server" CssClass="form-control" SkinId="TxtForCtrlMul" style="height: 100px;" ></asp:TextBox>
+<asp:TextBox runat="server" CssClass="form-control" SkinId="TxtForCtrlMul70" style="height: 70px;" ></asp:TextBox>
+<asp:TextBox runat="server" CssClass="form-controlDisable" SkinId="TxtForCtrlSnglDisable" onkeyDown='return IsReadOnly(event);' style="height:35px;Width:100%" ></asp:TextBox>
+
+<asp:TextBox runat="server" CssClass="form-control" SkinId="TxtForCtrlSngl" style="height: 35px;" ></asp:TextBox>
+<asp:TextBox runat="server" CssClass="form-control" SkinId="TxtDate" style="height: 35px;Width:120px" ></asp:TextBox>
+<asp:TextBox runat="server" CssClass="form-controlDisable" SkinId="TxtForCtrlDisable" onkeyDown='return IsReadOnly(event);' style="height: 35px;Width:120px" ></asp:TextBox>
+<asp:TextBox runat="server" CssClass="form-control formtextbox" SkinId="TxtForCtrlDisable150" onkeyDown='return IsReadOnly(event);' style="height: 35px;Width:150px" ></asp:TextBox>
+<asp:TextBox runat="server" CssClass="form-control formtextbox" SkinId="TxtForCtrlMulNew" style="height: 100px;" ></asp:TextBox>
+<asp:TextBox runat="server" CssClass="SearchText" SkinId="TxtSearch" ></asp:TextBox>
+
+<%-- Label Controls --%>
+<asp:Label runat="server" Font-Names="Arial" Font-Size="9pt" ForeColor="black" Font-Bold="false" class="RowPaddingLft" SkinID="LblNormal"></asp:Label>
+<asp:Label runat="server" Font-Names="Arial" Font-Size="10pt" ForeColor="black" Font-Bold="true" SkinID="LblBold"></asp:Label>
+<asp:Label runat="server" Font-Names="Arial" Font-Size="10pt" ForeColor="black" Font-Bold="true" width="100px" SkinID="LblBold100"></asp:Label>
+<asp:Label runat="server" Font-Names="Arial" Font-Size="11pt" Font-Bold="true" ForeColor="maroon" SkinID="LblIdentify"></asp:Label>
+<asp:Label runat="server" Font-Names="Arial" Font-Size="11pt" Font-Bold="true" ForeColor="white" SkinID="LblIdentifywhite"></asp:Label>
+<asp:Label runat="server" Font-Bold="true" Font-Names="Arial" Font-Size="10pt" ForeColor="maroon" SkinID="LblPrevious"></asp:Label>
+<asp:Label runat="server" Font-Bold="true" Font-Names="Arial" Font-Size="10pt" ForeColor="black" SkinID="LblBoldCenter" style="text-align: center"></asp:Label>
+<asp:Label runat="server" Font-Bold="true" Font-Names="Arial" Font-Size="12pt" ForeColor="maroon" SkinID="LblIdentifyCenter" style="text-align: center"></asp:Label>
+<asp:Label runat="server" Font-Bold="true" Font-Names="Arial" Font-Size="12pt" ForeColor="maroon" SkinID="LblIdentifyLeft" style="text-align: Left"></asp:Label>
+<asp:Label runat="server" Font-Bold="true" Font-Names="Arial" Font-Size="12pt" ForeColor="maroon" SkinID="LblIdentifyRight" style="text-align: Right"></asp:Label>
+<asp:Label runat="server" Font-Bold="true" Font-Names="Arial" Font-Size="9pt" ForeColor="red" SkinID="LblRedCenter" style="text-align: center"></asp:Label>
+<asp:Label runat="server" CssClass="QuestionPager" SkinID="LblQuestPager" ></asp:Label>
+<asp:Label runat="server" CssClass="QuestionSubmit" SkinID="LblQuestSubmit" ></asp:Label>
+<asp:Label runat="server" CssClass="AnswerApprove" SkinID="LblAnswerAprv" ></asp:Label>
+
+<%-- Link Button Controls --%>
+
+<asp:LinkButton runat="server" Font-Bold="true" Font-Names="Arial" Font-Size="10pt" ForeColor="red" style="position: relative;" SkinID="LnkCrop"></asp:LinkButton>
+<asp:LinkButton runat="server" ForeColor="SlateGray" Font-Names="Arial" Font-Size="15pt" Font-Bold="True" SkinId="LnkBtnGrd15"></asp:LinkButton>
+<asp:LinkButton runat="server" ForeColor="black" Font-Names="Arial" Font-Size="10pt" Font-Bold="false" SkinId="LnkBtnGrd"></asp:LinkButton>
+<asp:LinkButton runat="server" Height="30px" Width="100px" class="btn-print" BorderWidth="0px" BorderColor="Gainsboro"  SkinID="LnkCommandPrint" ></asp:LinkButton>
+<asp:LinkButton runat="server" class="data-btnRed" SkinID="LnkBtnDelete"></asp:LinkButton>
+<asp:LinkButton runat="server" class="data-btnGreen" SkinID="LnkBtnEdit"></asp:LinkButton>
+
+<asp:LinkButton runat="server" class="NextStyle" SkinID="LnkBtnNext"></asp:LinkButton>
+<asp:LinkButton runat="server" class="PreviousStyle" SkinID="LnkBtnPrevious"></asp:LinkButton>
+<asp:LinkButton runat="server" class="btnSearch" SkinID="LnkBtnSearch"></asp:LinkButton>
+
+<%-- Hyper LInkControls --%>
+
+<asp:HyperLink runat="server" Font-Bold="true" Font-Names="Arial" Font-Size="9pt" SkinID="HylnkGnl"></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="data-btn" SkinID="HyLnkBtnView"></asp:HyperLink>
+<asp:HyperLink runat="server" CssClass="data-btnDarkBlue" SkinID="HyLnkBtnBack"></asp:HyperLink>
+<asp:HyperLink runat="server"  Height="35px" Width="100px" SkinID="HyLnkEdit" class="btn-Edit" ></asp:HyperLink>
+<%-- RadioButtonList LInkControls --%>
+
+<asp:RadioButtonList runat="server" RepeatDirection="Horizontal" CssClass="form-control checkbox" SkinID="RadBtnAttendies">
+<asp:ListItem Value="All Student" Text="All Student" Selected="True" />
+<asp:ListItem  Value="Individual Student" Text="Individual Student" />
+</asp:RadioButtonList>
+
+<asp:RadioButtonList runat="server" RepeatDirection="Horizontal" CssClass="form-control checkbox" SkinID="RadBtnFeeMode">
+<asp:ListItem Text="Hourly" />
+<asp:ListItem Text="Weekly" />
+<asp:ListItem Text="Monthly" />
+</asp:RadioButtonList>
+
+<asp:RadioButtonList runat="server" RepeatDirection="Vertical" CssClass="form-controlNew checkbox" SkinID="RadBtnQstOpt">
+<asp:ListItem Value="OPT1" Text="OPTION -1" />
+<asp:ListItem Value="OPT2" Text="OPTION -2" />
+<asp:ListItem Value="OPT3" Text="OPTION -3" />
+<asp:ListItem Value="OPT4" Text="OPTION -4" />
+<asp:ListItem Value="OPT5" Text="OPTION -5" />
+</asp:RadioButtonList>
+
+<asp:RadioButtonList runat="server" RepeatDirection="Horizontal" CssClass="form-control checkbox" SkinID="RadBtnPage">
+<asp:ListItem Value="Tutor" Text="Tutor Page"  Selected="True"/>
+<asp:ListItem Value="Student" Text="Student Page"  />
+</asp:RadioButtonList>
+<%-- GridView Controls --%>
+
+
+<asp:GridView runat="server" AllowPaging="False" AutoGenerateColumns="False" BackColor="white" GridLines="None" HorizontalAlign="Left" PageSize="10" SkinId="GrdVwMasterNoPageing">
+<RowStyle BackColor="white"  BorderColor="Gray" BorderStyle="Solid" BorderWidth="0px" Font-Names="Arial" Font-Size="10pt" HorizontalAlign="Left" VerticalAlign="Middle" />
+<PagerStyle BackColor="#f5f5f5" BorderColor="#E0E0E0" BorderStyle="Solid" BorderWidth="1px" Font-Bold="True" Font-Italic="False" Font-Names="Arial" Font-Size="10pt" ForeColor="red" />
+<SelectedRowStyle BackColor="#FFC0FF" Font-Bold="True" Font-Names="Arial" ForeColor="#804000" />
+<HeaderStyle BackColor="#337ab7" BorderColor="#E0E0E0" BorderStyle="Solid" BorderWidth="1px" Font-Names="Arial" Font-Size="10pt" ForeColor="White" HorizontalAlign="Left" VerticalAlign="Middle" />
+<AlternatingRowStyle BackColor="#ecf0f5" />
+<PagerSettings Position="TopAndBottom" />
+</asp:GridView>
+
+<asp:GridView runat="server" CssClass="table table-bordered" AllowPaging="False" AutoGenerateColumns="False" SkinId="GrdVwStudent">
+<PagerStyle CssClass="pagination-ys" />
+</asp:GridView> 
