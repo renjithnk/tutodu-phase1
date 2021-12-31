@@ -539,15 +539,18 @@
         </section>
         <!--Search Section Ends-->
     <!--Related Search Begins-->
-    <section class="mb-5">
+  <!--  <section class="mb-5">
         <div class="container">
             <div class="rsearch-title">
                 <h5>Related Search</h5>
             </div>
             <div class="rsearch-carousel">
-                <div class="owl-carousel owl-theme tuition-carousel">
+                <div class="owl-carousel owl-theme tuition-carousel owl-loaded owl-drag">
+                <div class="owl-stage-outer">  
+                <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2387px;">
                 <asp:Repeater runat="server" ID="RptRelatedSrch" OnItemDataBound="RptRelatedSrch_ItemDataBound">
-                <ItemTemplate>
+                <ItemTemplate>                    
+                    <div class="owl-item" style="width: 273.333px; margin-right: 25px;">
                     <div class="search-tile-holder">
                     <div class="search-single-tile d-flex align-items-end">
                     <div class="search-img">
@@ -562,18 +565,18 @@
                     <li><%#Eval("AcaedemicLevel")%></li>
                     <div>
                     <asp:HyperLink ID="HyLnkView" CssClass="search-tile-btn" runat="server">View<i class="fa fa-long-arrow-right"></i></asp:HyperLink>
-                    
-                    <div class="clear"></div>
                     </div>
                     </div>
                     </div>
-                    </div>
+                    </div> </div>
                 </ItemTemplate>
                 </asp:Repeater>
                 </div>
+                </div>
+                </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!--Related Search Ends-->
 </ContentTemplate>
 </asp:UpdatePanel>

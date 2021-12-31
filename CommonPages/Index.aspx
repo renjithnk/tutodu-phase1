@@ -1,4 +1,4 @@
-﻿<%@ page title="" language="C#" masterpagefile="~/MasterPages/CommonMasterNew.Master" autoeventwireup="true" inherits="CommonPages_Default, App_Web_wy5ggddp" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/CommonMasterNew.Master" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="CommonPages_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
@@ -198,8 +198,8 @@
                                             <li><%#FnIsNumeric( Eval("Duration"))+" "+Eval("DurationType")+" | Starts: "+Eval("StartDate", "{0: dd MMMM yyyy}")%></li>
                                             <li><%#Eval("AccAName")%></li>
                                             <li><%#Eval("AcaedemicLevel")%></li>
-                                            <li>100K Students</li>
-                                            <li>4.2</li>
+                                            <li><%#Eval("TotalNos")%></li>
+                                            <li><%#Eval("Rating")%></li>
                                         </ul>
                                     </div>
                                     <div class="pp-course-link text-center px-2">
@@ -231,8 +231,8 @@
                                             <ul>
                                                 <li><%#Convert.ToInt32( Eval("Duration"))+" "+Eval("DurationType")+" | "+Eval("StartDate", "{0: dd MMMM yyyy}")%></li>
                                                 <li><%#Eval("AccAName")%></li>
-                                                <li>4.2</li>
-                                                <li>100K Students</li>
+                                                <li><%#Eval("Rating")%></li>
+                                                <li><%#Eval("TotalNos")%></li>
                                                 <li><%#Eval("AcaedemicLevel")%></li>
                                             </ul>
                                         </div>
@@ -267,8 +267,8 @@
                                             <ul>
                                                 <li><%#Convert.ToInt32( Eval("Duration"))+" "+Eval("DurationType")+" | "+Eval("StartDate", "{0: dd MMMM yyyy}")%></li>
                                                 <li><%#Eval("AccAName")%></li>
-                                                <li>4.2</li>
-                                                <li>100K Students</li>
+                                                <li><%#Eval("Rating")%></li>
+                                                <li><%#Eval("TotalNos")%></li>
                                                 <li><%#Eval("AcaedemicLevel")%></li>
                                             </ul>
                                         </div>
@@ -366,12 +366,12 @@
             <div class="row">
                 <div class="col-10 offset-1 offset-sm-0 col-sm-6 col-lg-3 px-md-4 mb-3">
                     <div class="news-card">
-                        <div class="news-media">
-                            <img id="Img1Sec5" runat="server" src="../Assets/img/news.jpg"/>
-                        </div>
                         <div class="news-content">
                             <h5 id="HdrNew1" runat="server">Lorem ipsum dolor sit..</h5>
                             <p id="pTag1Sec5" runat="server">amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sis. amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="news-media">
+                            <img id="Img1Sec5" runat="server" src="../Assets/img/news.jpg"/>
                         </div>
                     </div>
                 </div>
@@ -391,7 +391,7 @@
                         <asp:Repeater runat="server" ID="RptrVideo1">
                         <ItemTemplate>
                             <div class="news-media">
-                            <video id="Vdo1Sec5" runat="server" width="100%" height="230" src='<%# Eval("cSection5Video1") %>' controls></video>
+                                <video id="Vdo1Sec5" runat="server" width="100%" height="230" src='<%# Eval("cSection5Video1") %>' controls></video>
                             </div>
                             <div class="news-content">
                             <h5 id="HdrNew3" runat="server"><%#Eval("cNewEvetHdr3")%></h5>
@@ -406,7 +406,7 @@
                          <asp:Repeater runat="server" ID="RptrVideo2">
                         <ItemTemplate>
                             <div class="news-media">
-                            <video id="Vdo2Sec5" runat="server" width="100%" height="230" src='<%# Eval("cSection5Video2") %>' controls></video>
+                                <video id="Vdo2Sec5" runat="server" width="100%" height="230" src='<%# Eval("cSection5Video2") %>' controls></video>
                             </div>
                             <div class="news-content">
                             <h5 id="HdrNew4" runat="server"><%#Eval("cNewEvetHdr4")%></h5>
