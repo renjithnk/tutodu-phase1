@@ -4011,8 +4011,10 @@ header .row.justify-content-between .col-md-4 .header-button:hover {background:#
 #news-updates .news-content {min-height: 190px;background:#fff;}
 
 @media only screen and (min-width:1200px) {
-#news-updates .row .col-10:nth-child(4) .news-card { display: flex;
-    flex-direction: column-reverse;  }     
+#news-updates .row .col-10:nth-child(4) .news-card {
+    /* display: flex; */
+    /* flex-direction: column-reverse; */
+    }     
 #news-updates .news-card .news-media {min-height: 235px;}    
 #news-updates .news-content {min-height: 235px;}
 #news-updates .news-card .news-media img {object-fit: cover;height: 100%;}    
